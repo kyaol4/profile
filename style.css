@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand:wght@400;600&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(40, 40, 40);
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* customize style */
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  text-align: center;
+  background-color: aliceblue;
+  padding: 24px;
+  margin: 24px 0px;
+  border-radius: 6px;
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 30%);
+}
+
+img.img-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 6%;
+}
+
+a.btn {
+  background-color: cornflowerblue;
+  color: rgb(240, 240, 240);
+  padding: 10px 15px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+a.btn:hover {
+  background-color: #E5AFCC;
+  transition: 1s;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul a {
+  color: rgb(40, 40, 40);
+}
+
+ul.game-list a {
+  font-size: 18px;
+}
+
+ul.list-inline li {
+  display: inline;
+  padding: 0 10px;
+}
+
+ul.list-inline a {
+  font-size: 30px;
+}
+
+/* media-query */
+
+@media (max-width: 600px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
